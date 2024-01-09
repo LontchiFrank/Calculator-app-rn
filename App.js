@@ -157,7 +157,10 @@ export default function App() {
           </TouchableOpacity>
         </View>
         <View style={styles.inputs}>
-          <TouchableOpacity style={styles.inputStyle3}>
+          <TouchableOpacity
+            style={styles.inputStyle3}
+            onPress={() => handleData("0")}
+          >
             <Text style={styles.inputText1}>0</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.inputStyle4}>
